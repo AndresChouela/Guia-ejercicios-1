@@ -19,8 +19,23 @@ public class Ejercicio7 : MonoBehaviour {
                 Debug.Log("El numero mayor es " + num3);
             }
         }
-        //else
-	}
+        else if (num1 < num2)
+        {
+            if (num2 > num3)
+            {
+                Debug.Log("El numero mayor es " + num2);
+            }
+            else if (num2 < num3)
+            {
+                Debug.Log("El numero mayor es " + num3);
+            }
+        }
+        else if (num1 == num2 && num2 == num3)
+        {
+            Debug.Log("El numero mayor es " + num3);
+        }
+
+    }
 	
 	// Update is called once per frame
 	void Update () {

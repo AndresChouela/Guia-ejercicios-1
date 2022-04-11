@@ -247,6 +247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716373acccf89554ebee499caf1b184b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hora: 12
+  estaabierto: 0
 --- !u!4 &355846790
 Transform:
   m_ObjectHideFlags: 0
